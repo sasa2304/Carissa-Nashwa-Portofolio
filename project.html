@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | My Project</title>
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/736x/08/1d/bb/081dbba65d106d9943cbe97f582759dd.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            /* Menggunakan gambar background pilihanmu */
+            background-image: url('Screenshot 2026-04-21 07.34.24.png.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            /* Font Body: Comic Sans */
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin: 0;
+            color: #1a1a1a;
+        }
+
+        header {
+            background-color: rgba(1, 22, 56, 0.9); /* Prussian Blue transparan */
+            color: #ffffff;
+            text-align: center;
+            padding: 45px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            margin: 0;
+            letter-spacing: 2px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            font-size: 1.1em;
+            opacity: 0.8;
+            margin-top: 10px;
+            color: #CDCDCD;
+        }
+
+        nav {
+            background-color: rgba(54, 65, 86, 0.95); /* Charcoal Blue transparan */
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: #CDCDCD;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.4s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            background: #011638;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+            /* Putih transparan agar background terlihat */
+            background-color: rgba(255, 255, 255, 0.92);
+            padding: 45px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .container h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            color: #011638;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        /* GRID PROJECT */
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .project-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            transition: all 0.4s ease;
+            border: 2px solid #CDCDCD;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: #011638;
+            box-shadow: 0 15px 30px rgba(1, 22, 56, 0.2);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 2px solid #CDCDCD;
+            transition: 0.5s;
+        }
+
+        .project-card:hover img {
+            filter: brightness(80%);
+        }
+
+        .project-card a {
+            display: block;
+            padding: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            color: #011638;
+            background-color: #ffffff;
+            transition: 0.3s;
+        }
+
+        .project-card a:hover {
+            background-color: #011638;
+            color: #ffffff;
+        }
+
+        footer {
+            background-color: rgba(1, 22, 56, 0.95);
+            color: #CDCDCD;
+            text-align: center;
+            padding: 35px;
+            margin-top: 60px;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            border-top: 5px solid #364156;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO CARISSA NASHWA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <h2>My Project</h2>
+    <p>
+        <i>
+       Halaman ini menunjukkan berbagai proyek yang pernah saya buat. <br>
+Klik pada kartu karya untuk melihat hasil kerja saya.
+        </i>
+    </p>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="project1.jpg" alt="Project 1">
+            <a href="https://www.youtube.com/embed/sB-OXj037eM" target="_blank">
+                Video Argumentasi
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="project2.jpg" alt="Project 2">
+            <a href="https://link-proyek-2.com" target="_blank">
+                Website Portofolio
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="Screenshot 2026-04-21 14.07.27.png" alt="Project 3">
+            <a href="https://scratch.mit.edu/projects/1063093923/" target="_blank">
+                Game Edukasi Scratch
+            </a>
+        </div>
+
+        <div class="project-card">
+            <img src="Screenshot 2026-04-21 14.10.22 - Edited.png" alt="Project 4">
+            <a href="video6177059730754640713 (1).mp4" target="_blank">
+                Film Broadcasting
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Carissa Nashwa @ 2026</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Profil</title>
+<link rel="icon" type="image/png" href="https://i.pinimg.com/736x/08/1d/bb/081dbba65d106d9943cbe97f582759dd.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-image: url('Screenshot 2026-04-21 07.34.24.png.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin: 0;
+            color: #1a1a1a;
+        }
+
+        header {
+            background-color: rgba(1, 22, 56, 0.9); 
+            color: #ffffff;
+            text-align: center;
+            padding: 45px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            margin: 0;
+            letter-spacing: 2px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            font-size: 1.1em;
+            opacity: 0.8;
+            margin-top: 10px;
+            color: #CDCDCD;
+        }
+
+        nav {
+            background-color: rgba(54, 65, 86, 0.95); 
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: #CDCDCD;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.4s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            background: #011638;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.92); 
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-right: 8px solid #011638;
+        }
+
+        .profile-photo {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile-photo img {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 8px solid #364156;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: 0.5s;
+        }
+
+        .profile-photo img:hover {
+            transform: scale(1.05);
+            border-color: #011638;
+        }
+
+        .profile-photo p {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            color: #364156;
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+
+        .content-text h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            color: #011638;
+            border-bottom: 2px solid #364156;
+            padding-bottom: 8px;
+            margin-top: 35px;
+        }
+
+        .content-text p {
+            text-align: justify;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: rgba(1, 22, 56, 0.95);
+            color: #CDCDCD;
+            text-align: center;
+            padding: 35px;
+            margin-top: 60px;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            border-top: 5px solid #364156;
+        }
+
+        b {
+            color: #011638;
+        }
+
+        /* FLOATING PLAYER */
+        .music-player {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 270px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.2);
+            z-index: 9999;
+        }
+
+        .music-player iframe {
+            margin-bottom: 8px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO CARISSA NASHWA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+
+    <div class="profile-photo">
+        <img src="Untitled design (22).png" alt="Foto Profil Sasa">
+        <p>"Do it, because they said you couldn't"</p>
+    </div>
+
+    <div class="content-text">
+
+        <h2>Profil Singkat</h2>
+        <p>
+            Hello Everybody! Nama saya <b>Carissa Nashwa</b>, biasanya dipanggil <b>Sasa</b>. Saya adalah siswi kelas 9 Al-Araf di SMPIT Al-Haraki.
+        </p>
+
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya lahir di Jakarta pada tanggal 23 April 2011 dan sekarang tinggal di Depok Lama. Hobi saya adalah menonton film-film sdokumenter, saya juga sangat suka musik, terutama lagu-lagu dari Tate McRae seperti "Revolving Door" dan Zara Larsson dengan "Ain’t My Fault". Selain itu, saya suka membaca buku-buku tentang pengembangan diri dan psikologi. Buku-buku yang saya baca antara lain "KNOWING YOUR PERSONALITY" oleh Desy Rachmawati dan "SURROUNDED BY IDIOTS" oleh Thomas Erikson.
+        </p>
+
+        <h2>Minat dan Bakat</h2>
+        <p>
+            Saya punya minat besar di bidang kedokteran dan forensik, dan saya adalah pribadi yang atletik dan aktif dalam berbagai olahraga seperti badminton, berenang, serta basket.
+        </p>
+
+        <h2>Cita-cita dan Harapan</h2>
+        <p>
+        Saya bercita-cita menjadi seorang perawat, alasan saya bercita-cita menjadi perawat adalah untuk membantu, merawat, dan menyembuhkan banyak orang. Harapan saya kedepannya adalah untuk mendapatkan beasiswa untuk belajar di luar negeri dan memasuki universitas terbaik. (Nasional/Internasional)
+        </p>
+
+        <h2>Kesan dan Pesan Selama Kelas 9</h2>
+        <p>
+            Menjadi anggota kelas 9 Al-Araf di SMPIT Al Haraki adalah pengalaman yang sangat seru. Saya merasa suasana di sini sangat membantu saya untuk tidak hanya berprestasi di bidang akademis, tetapi juga mengembangkan karakter yang penuh empati dan kuat.Terima kasih kepada Bapak dan Ibu guru yang telah membimbing kami dengan sabar dan selalu mengingatkan kami untuk menjaga ibadah. Untuk teman-teman, jangan pernah putus asa dalam mengejar impian kalian!
+        </p>
+
+ <div style="margin-top: 20px;">
+   <h2>My Socials</h2>
+      <a href="https://www.instagram.com/sasaisnotme/" target="_blank">
+        <img src="Untitled design (14).png" style="height: 200px; margin: 0 10px;" alt="Instagram">
+      </a>
+      <a href="https://www.tiktok.com/@sasaheartsu" target="_blank">
+        <img src="Untitled design (1).png" style="height: 200px; margin: 0 10px;" alt="TikTok">
+      </a>
+      <a href="https://open.spotify.com/user/31m4flv3e2jtfrife53kki27tvu4" target="_blank">
+        <img src="Untitled design (16).png" style="height: 200px; margin: 0 10px;" alt="Spotify">
+      </a>
+    </div>
+    </div>
+
+</div>
+
+<!-- FLOATING 2 MUSIC PLAYER -->
+<div class="music-player">
+    <iframe 
+        src="https://open.spotify.com/embed/track/541sN2qNfIlllGn9nGOQoC" 
+        width="100%" 
+        height="80" 
+        frameborder="0" 
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture">
+    </iframe>
+
+    <iframe 
+        src="https://open.spotify.com/embed/track/0ADG9OgdVTL7fgREP75BrZ" 
+        width="100%" 
+        height="80" 
+        frameborder="0" 
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture">
+    </iframe>
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Carissa Nashwa @ 2026</p>
+</footer>
+
+</body>
+</html>

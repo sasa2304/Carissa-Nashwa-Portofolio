@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portofolio | Beranda</title>
+ <link rel="icon" type="image/png" href="https://i.pinimg.com/736x/08/1d/bb/081dbba65d106d9943cbe97f582759dd.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-image: url('Screenshot 2026-04-21 07.34.24.png.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; 
+            background-repeat: no-repeat;
+            
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            margin: 0;
+            color: #1a1a1a;
+        }
+
+        header {
+            background-color: rgba(1, 22, 56, 0.9); 
+            color: #ffffff;
+            text-align: center;
+            padding: 45px 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            margin: 0;
+            letter-spacing: 2px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            font-size: 1.1em;
+            opacity: 0.8;
+            margin-top: 10px;
+            color: #CDCDCD;
+        }
+
+        nav {
+            background-color: rgba(54, 65, 86, 0.95); 
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: #CDCDCD;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: 0.4s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+            background: #011638;
+            padding: 8px 20px;
+            border-radius: 5px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1150px;
+            margin: 40px auto;
+            background-color: rgba(255, 255, 255, 0.92); 
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            border-left: 8px solid #011638;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+        }
+
+        .content-text h2 {
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            color: #011638; 
+            border-bottom: 2px solid #364156;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        .content-text p {
+            text-align: justify;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .content-gallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .content-gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            border-radius: 10px;
+            filter: grayscale(20%);
+            transition: 0.5s;
+            border: 2px solid #364156;
+        }
+
+        .content-gallery img:hover {
+            filter: grayscale(0%);
+            transform: scale(1.03);
+            border-color: #011638;
+        }
+
+        footer {
+            background-color: rgba(1, 22, 56, 0.95);
+            color: #CDCDCD;
+            text-align: center;
+            padding: 35px;
+            margin-top: 60px;
+            font-family: 'Libre Baskerville', serif;
+            font-style: italic;
+            border-top: 5px solid #364156;
+        }
+
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PORTOFOLIO CARISSA NASHWA</h1>
+    <p>Karya Nyata dari Proses Belajar</p>
+</header>
+
+<nav>
+    <a href="index.html">Beranda</a>
+    <a href="profil.html">Profil</a>
+    <a href="video.html">Video</a>
+    <a href="project.html">My Project</a>
+</nav>
+
+<div class="container">
+    <div class="content-grid">
+
+        <div class="content-text">
+            <h2>Selamat Datang di Website Portofolio Sasa</h2>
+            <p>
+                Halo! Saya <b>Carissa Nashwa</b> dari kelas 9 Al-Araf. Website ini adalah media pendukung untuk menampilkan hasil Ujian Praktik Terintegrasi saya. Konten utama pada website ini adalah video broadcasting yang berisi penyampaian teks argumentasi mengenai pengalaman nyata saya dalam dunia kerja.
+            </p>
+
+            <h2>Tentang Website Ini</h2>
+            <p>
+            Website ini adalah portofolio digital yang mendokumentasikan hasil karya dan 
+               proses pembelajaran saya selama mengikuti Ujian Praktik Terintegrasi. Di sini, 
+               Informatika dan Bahasa Indonesia bergabung dalam bentuk website yang edukatif.
+            </p>
+
+            <h2>Tujuan Pembuatan Website</h2>
+            <p>
+                Tujuan utama pembuatan website ini adalah untuk menyele tugas ujian praktik 
+                serta melatih kemampuan saya dalam merancang struktur web menggunakan HTML dan CSS. 
+                Selain itu, website ini bertujuan untuk mengomunikasikan gagasan saya secara 
+                visual dan tertulis kepada publik.
+            </p>
+
+            <h2>Topik Argumentasi</h2>
+            <p>
+               Topik yang saya angkat adalah <b>"Pentingnya Internship Curriculum (IC) dalam Mengembangkan Keterampilan Siswa melalui Pengalaman di Nisvara Bakery."</b> 
+               Saya memilih topik ini karena merasa bahwa pembelajaran di dalam kelas perlu 
+               dilengkapi dengan pengalaman langsung di lapangan agar lebih siap menghadapi tantangan nyata.
+            </p>
+
+            <h2>Harapan dari Video</h2>
+            <p>
+                Saya berharap penonton dapat memahami betapa pentingnya pengalaman kerja sejak dini untuk melatih mental dan <i>soft skills</i>. Semoga video ini menginspirasi teman-teman untuk terus mengeksplorasi kemampuan diri.
+            </p>
+
+            <h2>Refleksi, Kesan, dan Pesan</h2>
+            <p>
+                Melalui kelas 9 dan ujian praktik ini, saya belajar tentang tanggung jawab dan kemandirian. Belajar di SMPIT Al Haraki sangat berkesan karena lingkungannya mendukung saya tumbuh menjadi pribadi yang empati demi menggapai cita-cita saya di masa depan. Terima kasih bapak/ibu guru atas bimbingannya!
+            </p>
+        </div>
+
+        <div class="content-gallery">
+            <img src="https://i.pinimg.com/736x/a5/0d/51/a50d518a8cfebe1ed8f54e16562a6762.jpg" alt="Gallery 1">
+            <img src="https://i.pinimg.com/736x/d9/ef/42/d9ef4217d7bb1d6480b152276c1694ea.jpg" alt="Gallery 2">
+            <img src="https://i.pinimg.com/736x/01/7b/9f/017b9f2bbba8eef3b4468c42f8871901.jpg" alt="Gallery 3">
+            <img src="https://i.pinimg.com/1200x/47/dd/f6/47ddf65de1ab551fa85b5d2614f6bfa9.jpg" alt="Gallery 4">
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>Ujian Praktik Terintegrasi | SMPIT Al Haraki | Carissa Nashwa @ 2026</p>
+</footer>
+
+</body>
+</html>
